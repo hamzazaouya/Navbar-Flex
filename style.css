@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DDD;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+/* Start Section One*/
+
+section.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #24252A;
+    margin-bottom: 100px;
+    margin-top: 50px
+}
+
+section.one .logo {
+    width: 70%;
+    margin-left: 40px;
+    color: #FFFFFF;
+    cursor: pointer
+}
+
+section.one nav {
+    width: 30%;
+    margin-right: 40px
+}
+
+section.one nav ul {
+    display: flex;
+    justify-content: space-between
+}
+
+section.one ul li {
+    list-style-type: none
+}
+
+section.one ul li:last-of-type a {
+    background-color: #0088A9;
+    padding: 7px 12px;
+    border-radius: 15px
+}
+
+section.one ul li a {
+    text-decoration: none;
+    color: #FFF
+}
+
+/* Start Section Tow */
+
+
+section.tow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    text-transform: capitalize;
+    background-color: #24252A;
+    margin-bottom: 100px
+}
+
+section.tow .logo {
+    display: flex;
+    justify-content: flex-start;
+    color: #FFF;
+    width: 40%;
+    margin-left: 40px;
+}
+
+section.tow nav {
+    width: 20%;
+}
+
+section.tow nav ul {
+    display: flex;
+    justify-content: space-around
+}
+
+section.tow nav ul li {
+    list-style-type: none;
+}
+
+section.tow nav ul a {
+    color: #FFF;
+    text-decoration: none
+}
+
+section.tow div.contact {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+section.tow div.contact a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #0088A9;
+    padding: 7px 12px;
+    border-radius: 15px
+}
+
+/* Start Section Three */
+
+section.three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #24252A;
+    margin-bottom: 100px;
+    margin-top: 50px
+}
+
+section.three .logo {
+    display: flex;
+    justify-content:flex-end
+    width: 70%;
+    margin-right: 40px;
+    color: #FFFFFF;
+    cursor: pointer
+}
+
+section.three nav {
+    width: 30%;
+    margin-left: 40px
+}
+
+section.three nav ul {
+    display: flex;
+    justify-content: space-between
+}
+
+section.three ul li {
+    list-style-type: none
+}
+
+section.three ul li:last-of-type a {
+    background-color: #0088A9;
+    padding: 7px 12px;
+    border-radius: 15px
+}
+
+section.three ul li a {
+    text-decoration: none;
+    color: #FFF
+}
